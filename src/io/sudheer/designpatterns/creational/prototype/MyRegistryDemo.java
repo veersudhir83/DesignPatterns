@@ -18,7 +18,6 @@ public class MyRegistryDemo {
 		System.out.println(book);
 		System.out.println(book.getTitle());
 		System.out.println(book.getUrl());
-		
 	}
 
 }
