@@ -1,7 +1,6 @@
 package io.sudheer.designpatterns.creational.factory;
 
 import java.util.Calendar;
-import java.util.TimeZone;
 
 public class FactoryExample {
 

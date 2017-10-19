@@ -32,7 +32,7 @@ public class MySingletonDemo {
 		Statement stmt;
 		try {
 			stmt = con.createStatement();
-			int count = stmt.executeUpdate(Constants.CREATE_ADDRESS_TABLE);
+			stmt.executeUpdate(Constants.CREATE_ADDRESS_TABLE);
 			System.out.println("Table Created.");
 			stmt.close();
 		} catch(SQLException e) {
@@ -48,6 +48,7 @@ public class MySingletonDemo {
 		
 	}
 
+	/*
 	private static void nonThreadSafeRun() {
 		MySingleton instance1 = MySingleton.getInstance();
 		System.out.println(instance1);
@@ -57,5 +58,6 @@ public class MySingletonDemo {
 		MySingleton instance2 = MySingleton.getInstance();
 		System.out.println(instance2);
 	}
+	*/
 
 }
