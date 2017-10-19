@@ -19,4 +19,4 @@ Examples: Calendar, ResourceBundle, NumberFormat
 
 ### Abstract Factory
 Factory of Factories; Factory of related objects; Common Interface; Defer to sub-classes
-Examples: DocumentBuilder, Frameworks  
+Examples: DocumentBuilderFactory, Frameworks  
