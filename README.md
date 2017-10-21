@@ -20,3 +20,34 @@ Doesn't expose instantiation logic; Defer to sub-classes; Common Interface; Spec
 ### Abstract Factory
 Factory of Factories; Factory of related objects; Common Interface; Defer to sub-classes
 > **Examples:** DocumentBuilderFactory, Frameworks  
+
+
+## Structural Patterns:
+### Adapter
+Client centric; Integrate New with Old; Could be an interface but not required to be always; Adaptee can be the implementation; Translates requests 
+Do Not related it with a classic physical adapter example which connects only to one interface; Do not add functionality - it becomes decorator
+> **Examples:** Collections (Arrays to List), Streams
+
+### Bridge
+ 
+> **Examples:** 
+
+### Composite
+ 
+> **Examples:** 
+
+### Decorator
+ 
+> **Examples:** 
+
+### Facade
+ 
+> **Examples:** 
+
+### FlyWeight
+ 
+> **Examples:** 
+
+### Proxy
+ 
+> **Examples:** 
